@@ -77,7 +77,7 @@
         
     function checkPhone(phone) {
         var phone = phone.value;
-        if(!(phone.length === 0)) {
+        if(phone.length === 10) {
             if(!(isNaN(phone))) {
                 return true;
             } else {
